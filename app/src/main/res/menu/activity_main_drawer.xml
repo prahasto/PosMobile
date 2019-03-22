@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:title="Menu">
+            <menu>
+        <item
+            android:id="@+id/nav_opname"
+            android:title="OPName"
+            />
+        <item
+            android:id="@+id/nav_list_opname"
+            android:title="List OPName" />
+
+            </menu>
+        </item>
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_setting_opname"
+                android:title="Setting OPName"
+                />
+
+        </menu>
+    </item>
+
+
+    <item android:title="Other">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"/>
+        <item
+            android:id="@+id/nav_close"
+            android:title="Close"/>
+    </item>
+    <item android:title="Wer">
+        <item
+            android:id="@+id/nav_delete"
+            android:title="Delete Opname"/>
+    </item>
+
+
+
+</menu>

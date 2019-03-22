@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/edtQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:background="@color/colorFrame"
+        android:ems="10"
+        android:digits="-0123456789"
+        android:maxLength="5"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="OK" />
+</LinearLayout>

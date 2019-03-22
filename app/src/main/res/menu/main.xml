@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"  >
+    <item
+        android:id="@+id/action_upload"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cek_update"
+        android:orderInCategory="100"
+        android:title="Update Product"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_download"
+        android:orderInCategory="100"
+        android:title="Download DB"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_to_csv"
+        android:orderInCategory="100"
+        android:title="Export CSV"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_getlokator"
+        android:orderInCategory="100"
+        android:title="Sync Lokasi"
+        app:showAsAction="never" />
+   <!-- <item
+        android:id="@+id/action_download"
+        android:orderInCategory="100"
+        android:title="Download"
+        app:showAsAction="never" /> -->
+</menu>
